@@ -7,7 +7,7 @@
 $ cd
 
 # 3. カレントディレクトリから`~/geekationWorkspace`ディレクトリまで移動してください。(すでにオリエンテーションで作成済み)
-$ cd geekationWorkspace
+$ cd ~/geekationWorkspace
 
 # 4. `LinuxCommandPractice`というディレクトリを作成して、`LinuxCommandPractice`に移動してください。
 $ mkdir LinuxCommandPractice && cd LinuxCommandPractice
@@ -64,7 +64,7 @@ $ ls -l
 $ cd ../../
 
 # 19. `practice_dir_2`ディレクトリを削除してください。**但し、相対パスを使用してください。**
-$ rm -r practice_dir_2
+$ rm -r ./practice_dir_2
 
 # 20. `vi`または`vim`を用いて、カレントディレクトリにある`practice_file1.txt`に`I'm good at Linux commands!`と書き込んでください。
 $ vi practice_file1.txt
